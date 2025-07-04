@@ -13,23 +13,28 @@
   </style>
 </head>
 <body>
-  <article class="blog-post">
-    <img src="assets/images/illustration-article.svg" alt="Abstract illustration representing HTML and CSS code" />
 
-    <p class="categoria" aria-label="Category">Learning</p>
+  <main>
+    <article class="blog-post">
+      <img src="assets/images/illustration-article.svg" alt="Abstract illustration representing HTML and CSS code" />
 
-    <p class="fecha">Published: <time datetime="2023-12-21">21 Dec 2023</time></p>
+      <!-- Cambié p por un elemento span con role="note" para describir la categoría -->
+      <p class="categoria" role="note">Learning</p>
 
-    <h1 class="titulo">HTML & CSS Foundations</h1>
+      <p class="fecha">Published: <time datetime="2023-12-21">21 Dec 2023</time></p>
 
-    <section class="contenido">
-      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    </section>
+      <h1 class="titulo">HTML & CSS Foundations</h1>
 
-    <footer class="autor">
-      <img src="assets/images/image-avatar.webp" alt="Avatar of Greg Hooper" class="foto-autor" />
-      <p class="nombre-autor" aria-label="Author">Greg Hooper</p>
-    </footer>
-  </article>
+      <section class="contenido">
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </section>
+
+      <footer class="autor">
+        <img src="assets/images/image-avatar.webp" alt="Avatar of Greg Hooper" class="foto-autor" />
+        <p class="nombre-autor">Greg Hooper</p>
+      </footer>
+    </article>
+  </main>
+
 </body>
-</html> 
+</html>
